@@ -2,7 +2,7 @@ import { FaHeartbeat } from "react-icons/fa";
 
 export default function Anatomia() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-200 via-purple-300 to-pink-200 pt-16 pb-10 sm:p-5 sm:pt-16 sm:pb-5 ">
+    <div className="min-h-screen bg-gradient-to-br from-blue-200 via-purple-300 to-pink-200 pt-32 pb-10 sm:p-5 sm:pt-16 sm:pb-5">
       <div className="max-w-7xl mx-auto">
         {/* Cabeçalho */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-center text-indigo-800 mb-8 sm:mb-12 drop-shadow-lg">
