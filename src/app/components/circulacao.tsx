@@ -16,21 +16,21 @@ export default function Circulacao() {
                 </h2>
                 <ul className="list-disc list-inside mt-4 space-y-3 text-gray-700">
                     <li>
-                        <span className="font-bold text-blue-600"> Transporte de oxigênio e nutrientes: < br /></span> 
+                        <span className="font-bold text-blue-600"> Transporte de oxigênio e nutrientes: <br /></span> 
                         O sangue oxigenado é bombeado do coração para todos os tecidos do corpo.
                     </li>
                     <li>
-                        <span className="font-bold text-blue-600">Regulação da temperatura corporal: < br /></span> 
+                        <span className="font-bold text-blue-600">Regulação da temperatura corporal: <br /></span> 
                         Mantém a homeostase.
                     </li>
                     <li>
-                        <span className="font-bold text-blue-600">Proteção imunológica:< br /></span> 
+                        <span className="font-bold text-blue-600">Proteção imunológica:<br /></span> 
                         O sangue transporta células de defesa para combater infecções.
                     </li>
                 </ul>
                 <div className="mt-8 text-center">
                     <span className="text-sm text-gray-600 italic">
-                        "O sistema cardiovascular é a base da vida, garantindo energia e proteção para todo o corpo."
+                        &quot;O sistema cardiovascular é a base da vida, garantindo energia e proteção para todo o corpo.&quot;
                     </span>
                 </div>
             </div>
