@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react'
-import { Heart, Play, Info } from 'lucide-react'
+import { Heart, Play } from 'lucide-react'
 
 export default function Videos() {
   const [activeVideo, setActiveVideo] = useState('yyng6-fBQ8M')
