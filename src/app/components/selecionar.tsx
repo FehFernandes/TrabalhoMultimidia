@@ -1,4 +1,3 @@
-import { Heart } from 'lucide-react'
 
 export default function Selecionar() {
   return (
@@ -13,11 +12,10 @@ export default function Selecionar() {
 
         <div className="flex flex-col items-center space-y-6 mb-10">
           <div className="flex items-center gap-3">
-            <Heart className="w-6 h-6 text-blue-500 animate-pulse" />
+            
             <p className="text-xl font-semibold text-gray-800">FELIPE FERNANDES</p>
           </div>
           <div className="flex items-center gap-3">
-            <Heart className="w-6 h-6 text-blue-500 animate-pulse" />
             <p className="text-xl font-semibold text-gray-800">MÁRIO CÉSAR DE OLIVEIRA NETO</p>
           </div>
         </div>
