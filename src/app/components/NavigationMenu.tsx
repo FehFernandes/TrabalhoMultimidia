@@ -74,7 +74,7 @@ export default function NavigationMenu() {
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="inline-flex items-center justify-center p-2 rounded-md text-red-200 hover:text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-800 focus:ring-white"
+                className="inline-flex items-center justify-center p-2 rounded-md text-red-200 hover:text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-red-800 focus:ring-white"
               >
                 <span className="sr-only">Abrir menu principal</span>
                 {isOpen ? (
@@ -97,7 +97,7 @@ export default function NavigationMenu() {
                     setActiveSection(item.href)
                     setIsOpen(false)
                   }}
-                  className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-red-700 transition duration-150 ease-in-out flex items-center ${activeSection === item.href ? 'bg-red-700' : ''}`}
+                  className={`block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 transition duration-150 ease-in-out flex items-center ${activeSection === item.href ? 'bg-cyan-500' : ''}`}
                 >
                   <item.icon className="h-5 w-5 mr-2" />
                   {item.name}
